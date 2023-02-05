@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title>lesson8.homework</title>
+	<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css' type='text/css' media='all'>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="Nuevo Contacto.css">
+</head>
+<link rel="stylesheet" href="navbar.css" <body>
+    <ul class="topnav">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+        <li><a href="NuevoContacto.html">Nuevo contacto</a></li>
+        <li><a href="UsuarioFavorito.html">Favoritos</a></li>
+        <li><a href="PerfildeUsuario.html">Perfil de Usuario</a></li>
+        <li class="left"><a href="To do list.html">To Do list</a></li>
+    </ul>
+<body>
+    
+<div class="container">
+	<h1>Nuevo Contacto</h1>
+
+	<div class="row">
+		<div class="col-md-4">
+			<form id="new-contact">
+				<div class="form-group">
+					<label for="new-first-name">Primer Nombre</label>
+					<input type="text" class="form-control" id="new-first-name">
+				</div>
+				<div class="form-group">
+					<label for="new-last-name">Primer Apellido</label>
+					<input type="text" class="form-control" id="new-last-name">
+				</div>
+				<div id="new-phones">
+					<div class="for-new-phone">
+						<div class="form-group">
+							<label for="new-phone">Teléfono</label>
+							<input type="text" class="form-control new-phone">
+						</div>
+					</div>
+				</div>
+
+
+				<div id="new-emails">
+					<div class="for-new-email">
+						<div class="form-group">
+							<label for="new-email">email</label>
+							<input type="text" class="form-control new-email">
+						</div>
+					</div>
+				</div>
+
+
+
+				<p></p><button type="submit" class="btn btn-primary">Add contact</button></p>
+			</form>
+		</div>
+	
+
+		<div class="col-md-4">
+			<div id="show-contact">
+				<h2></h2>
+
+				<p>First name: <span class="first-name"></span></p>
+				<p>Last name: <span class="last-name"></span></p>
+				<p>Phones:</p>
+				<ul id="phones">
+				</ul>
+				<p>Emails:</p>
+				<ul id="emails">
+				</ul>
+				
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+  </body>
+</html>
